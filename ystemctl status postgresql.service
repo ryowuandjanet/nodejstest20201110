@@ -1,0 +1,100 @@
+[0;1;32m●[0m ip-172-31-10-172
+    State: [0;1;32mrunning[0m
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Tue 2020-11-10 01:45:30 UTC; 16min ago
+   CGroup: /
+           ├─1228 bpfilter_umh
+           ├─user.slice
+           │ └─user-1000.slice
+           │   ├─user@1000.service
+           │   │ └─init.scope
+           │   │   ├─1456 /lib/systemd/systemd --user
+           │   │   └─1457 (sd-pam)
+           │   ├─session-6.scope
+           │   │ ├─2368 sshd: ubuntu [priv]
+           │   │ ├─2659 sshd: ubuntu@notty
+           │   │ └─2660 vfs-worker {"pingInterval":5000,"nodePath":"/home/ubuntu/.c9/node_modules","tmuxBin":"/home/ubuntu/.c9/bin/tmux","root":"/","debug":false,"connectionTimeout":60000,"metapath":"/.c9/metadata","envmetapath":"/.c9/metadata/environment","projectDir":"/home/ubuntu/environment","defaultEnv":{"HGUSER":"root","EDITOR":"","PORT":"8080","C9_PORT":"8080","IP":"127.0.0.1","C9_HOSTNAME":"13.212.159.184","C9_USER":"root","C9_PROJECT":"GoNodejs","C9_PID":"b2820cd268b64a949d392d3e54137d7c"},"targetHostName":"ubuntu@13.212.159.184","sshOptions":{"PasswordAuthentication":"no","StrictHostKeyChecking":"no","UserKnownHostsFile":"/dev/null","Port":"22","LogLevel":"ERROR","IdentityFile":"/tmp/tmp-5857dC5Hj5CsKrYL","IdentitiesOnly":"yes","ConnectTimeout":10,"ConnectionAttempts":1},"portForwards":[{"from":8080,"to":32814},{"from":8081,"to":32815},{"from":8082,"to":32816}],"ssmOptions":{"instanceId":"i-0df84144183d70115","connectionType":"CONNECT_SSH"},"useVfsLoaderCache":true,"environmentId":"b2820cd268b64a949d392d3e54137d7c","extendApi":{"collab":{"file":"c9.ide.collab/server/collab-server.js","user":{"userId":"546672304773","name":"root"},"project":{"workspaceId":"b2820cd268b64a949d392d3e54137d7c","name":"GoNodejs","type":"ec2"},"environment":{"id":"b2820cd268b64a949d392d3e54137d7c","name":"GoNodejs","type":"ec2","ideTemplateName":"Cloud9 Ubuntu","connectionType":"CONNECT_SSH","instanceId":"i-0df84144183d70115"},"readonly":false,"session":{},"nodePath":"/home/ubuntu/.c9/node_modules"},"ping":{"file":"c9.vfs.client/ping-service.js"},"store":{"file":"c9.vfs.client/store-service.js"}}}
+           │   └─session-3.scope
+           │     ├─1454 sshd: ubuntu [priv]
+           │     ├─1554 sshd: ubuntu@notty
+           │     ├─1555 vfs-worker {"pingInterval":5000,"nodePath":"/home/ubuntu/.c9/node_modules","tmuxBin":"/home/ubuntu/.c9/bin/tmux","root":"/","debug":false,"connectionTimeout":60000,"metapath":"/.c9/metadata","envmetapath":"/.c9/metadata/environment","projectDir":"/home/ubuntu/environment","defaultEnv":{"HGUSER":"root","EDITOR":"","PORT":"8080","C9_PORT":"8080","IP":"127.0.0.1","C9_HOSTNAME":"13.212.159.184","C9_USER":"root","C9_PROJECT":"GoNodejs","C9_PID":"b2820cd268b64a949d392d3e54137d7c"},"targetHostName":"ubuntu@13.212.159.184","sshOptions":{"PasswordAuthentication":"no","StrictHostKeyChecking":"no","UserKnownHostsFile":"/dev/null","Port":"22","LogLevel":"ERROR","IdentityFile":"/tmp/tmp-3789VtH2ZMyiD4GE","IdentitiesOnly":"yes","ConnectTimeout":10,"ConnectionAttempts":1},"portForwards":[],"ssmOptions":{"instanceId":"i-0df84144183d70115","connectionType":"CONNECT_SSH"},"useVfsLoaderCache":true,"environmentId":"b2820cd268b64a949d392d3e54137d7c","extendApi":{"collab":{"file":"c9.ide.collab/server/collab-server.js","user":{"userId":"546672304773","name":"root"},"project":{"workspaceId":"b2820cd268b64a949d392d3e54137d7c","name":"GoNodejs","type":"ec2"},"environment":{"id":"b2820cd268b64a949d392d3e54137d7c","name":"GoNodejs","type":"ec2","ideTemplateName":"Cloud9 Ubuntu","connectionType":"CONNECT_SSH","instanceId":"i-0df84144183d70115"},"readonly":false,"session":{},"nodePath":"/home/ubuntu/.c9/node_modules"},"ping":{"file":"c9.vfs.client/ping-service.js"},"store":{"file":"c9.vfs.client/store-service.js"}}}
+           │     ├─3749 /home/ubuntu/.c9/bin/tmux -u2 -L cloud92.2 new -s cloud9_terminal_891 export ISOUTPUTPANE=0;bash -l ; set -q -g status off ; set -q destroy-unattached off ; set -q mouse-select-pane on ; set -q set-titles on ; set -q quiet on ; set -q -g prefix C-b ; set -q -g default-terminal xterm-256color ; setw -q -g xterm-keys on
+           │     ├─3894 /home/ubuntu/.c9/bin/tmux -u2 -L cloud92.2 new -s cloud9_terminal_640 export ISOUTPUTPANE=0;bash -l ; set -q -g status off ; set -q destroy-unattached off ; set -q mouse-select-pane on ; set -q set-titles on ; set -q quiet on ; set -q -g prefix C-b ; set -q -g default-terminal xterm-256color ; setw -q -g xterm-keys on
+           │     ├─3903 bash -c export ISOUTPUTPANE=0;bash -l
+           │     ├─3906 bash -l
+           │     ├─8473 systemctl status
+           │     └─8474 pager
+           ├─init.scope
+           │ └─1 /sbin/init
+           └─system.slice
+             ├─apache2.service
+             │ ├─ 978 /usr/sbin/apache2 -k start
+             │ ├─1008 /usr/sbin/apache2 -k start
+             │ ├─1009 /usr/sbin/apache2 -k start
+             │ ├─1010 /usr/sbin/apache2 -k start
+             │ ├─1011 /usr/sbin/apache2 -k start
+             │ └─1014 /usr/sbin/apache2 -k start
+             ├─containerd.service
+             │ └─905 /usr/bin/containerd
+             ├─systemd-networkd.service
+             │ └─680 /lib/systemd/systemd-networkd
+             ├─systemd-udevd.service
+             │ └─442 /lib/systemd/systemd-udevd
+             ├─cron.service
+             │ └─891 /usr/sbin/cron -f
+             ├─system-serial\x2dgetty.slice
+             │ └─serial-getty@ttyS0.service
+             │   └─921 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+             ├─docker.service
+             │ └─1041 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+             ├─polkit.service
+             │ └─912 /usr/lib/policykit-1/polkitd --no-debug
+             ├─networkd-dispatcher.service
+             │ └─859 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+             ├─snap.amazon-ssm-agent.amazon-ssm-agent.service
+             │ └─866 /snap/amazon-ssm-agent/2333/amazon-ssm-agent
+             ├─accounts-daemon.service
+             │ └─840 /usr/lib/accountsservice/accounts-daemon
+             ├─systemd-journald.service
+             │ └─417 /lib/systemd/systemd-journald
+             ├─atd.service
+             │ └─836 /usr/sbin/atd -f
+             ├─unattended-upgrades.service
+             │ └─911 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+             ├─ssh.service
+             │ └─929 /usr/sbin/sshd -D
+             ├─snapd.service
+             │ └─894 /usr/lib/snapd/snapd
+             ├─system-postgresql.slice
+             │ └─postgresql@10-main.service
+             │   ├─6948 /usr/lib/postgresql/10/bin/postgres -D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf
+             │   ├─6960 postgres: 10/main: checkpointer process   
+             │   ├─6961 postgres: 10/main: writer process   
+             │   ├─6962 postgres: 10/main: wal writer process   
+             │   ├─6963 postgres: 10/main: autovacuum launcher process   
+             │   ├─6964 postgres: 10/main: stats collector process   
+             │   └─6965 postgres: 10/main: bgworker: logical replication launcher   
+             ├─mysql.service
+             │ └─964 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+             ├─rsyslog.service
+             │ └─841 /usr/sbin/rsyslogd -n
+             ├─mongodb.service
+             │ └─827 /usr/bin/mongod --unixSocketPrefix=/run/mongodb --config /etc/mongodb.conf
+             ├─lxcfs.service
+             │ └─897 /usr/bin/lxcfs /var/lib/lxcfs/
+             ├─redis-server.service
+             │ └─7080 /usr/bin/redis-server 127.0.0.1:6379
+             ├─lvm2-lvmetad.service
+             │ └─436 /sbin/lvmetad -f
+             ├─systemd-resolved.service
+             │ └─690 /lib/systemd/systemd-resolved
+             ├─dbus.service
+             │ └─867 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+             ├─systemd-timesyncd.service
+             │ └─480 /lib/systemd/systemd-timesyncd
+             ├─system-getty.slice
+             │ └─getty@tty1.service
+             │   └─928 /sbin/agetty -o -p -- \u --noclear tty1 linux
+             └─systemd-logind.service
+               └─857 /lib/systemd/systemd-logind
